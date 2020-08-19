@@ -1,0 +1,109 @@
+body{margin:0;padding:0; font-family:Myriad Pro;;}
+	
+	.nav .barbn{position: absolute; top: 0;left: 0;width: 100%;z-index: 1;}
+	.header.abs-header {position: absolute; top: 0;left: 0;width: 100%;z-index: 1;}
+   .primary-menu, .footer .foo-nav { position: relative;}
+	article, aside, figcaption, figure, footer, header, hgroup, main, nav, section { display: block;}
+	
+
+	.nbar ul li{list-style:none; display:inline;}
+	.nbar ul li::after, ::before { box-sizing: border-box;}
+	.nbar ul li a{text-decoration:none; color:#021430;font-size:25px;}
+	.nbar ul li a:hover{text-decoration:none; color:#f0a23c;}
+    .spa-img img{
+    display: block;
+    width: 100%;
+    height: auto;}
+	.banner .spa-img {width: 43.4%;position: absolute;right: 0;top: 0;margin: 0;padding: 0;-webkit-box-sizing: border-box;box-sizing: border-box;}
+	.banner .container {position: relative; top: 0; left:0;width: 100%;;}
+	.banner {background: url(img/leaf.png) no-repeat left center/12.5%;padding:12% 0; }
+	.banner span{font-size:26px;color:#f0a23c;font-width:50px;font-family:Sans Serif;margin-bottom:200px;}
+	.banner h2{font-size:65px;color:#282936; font-weight: bold;margin-top:30px}
+	.banner p{font-size:16px;color:#282936; font-weight: bold;}
+	.banner .btn{font-size:20px;color:#fff; font-weight: bold;background:#FF817E;padding:8px;margin-top:30px;margin-bottom:35px;margin-right:35px}
+	.banner .btn:hover{font-size:20px;color:#282936; font-weight: bold;background:#f75cb9}
+	.banner .video-btn{font-size:20px;color:#9e5246; font-weight: bold;padding:8px;text-decoration:none;}
+	.banner .video-btn:hover{font-size:20px;color:#f75cb9; font-weight: bold;padding:8px;text-decoration:none;}
+    .about{display:black;overflow:hidden;margin-top:-7%;text-align:center;}
+    .about .flower-1 {position:relative;left: -18%;top: 0; }
+    .about .flower-2 {position:relative;left: 27%;top:90px;transform:; max-width:180px; }
+    .about .sec-heading {margin-top:-10%;padding:0;margin-bottom: 70px;position: relative;box-sizing:border-box;}
+    .about .tagline {font-family:Arial, Helvetica, sans-serif;padding:10px;position:relative}
+    .about .sec-title {font-family:Arial, Helvetica, sans-serif;padding:0px;position:relative;font-size:40px;margin-top:-30px;}
+    .about a {font-family:Arial, Helvetica, sans-serif;padding:10px;position:relative;font-size:20px;text-align:center;color:#fff;background:#FF817E;height:50px;width:200px;}
+    .about a:hover {background:#FF20DB}
+	
+	
+	.service .single-service{display: inline-block;margin:auto;}
+	.service .single-service img{width: 242px;height: 230px;margin: 10px 10px;}
+	.service{margin-top:7%; }
+	
+	.service .single-service .service-hover{position:relative;left: 0; top:-80px;text-align:center;color:#;}
+	.service .single-service:hover{color:#FF60BC}
+	.service .single-service img:hover{opacity:0.5;} 
+    
+	.procedures {text-align:center;}
+	.procedures .sec-heading .sec-title{font-size:50px;font-family:;margin:30px;}
+	.procedures .sec-heading p{font-size:;font-family:;margin-top:30px;}
+	.procedures .post{border:1px solid #DDC2FF;margin:3px;}
+	.procedures .post img{margin-top: 23px;width: 87%;}
+	.procedures .post h4 {;margin-bottom:20px;margin-top:34px;}
+	.procedures .post h4 a{text-decoration:none;color :#3E3647;}
+	.procedures .post p{color :#3E3647;font-family: 'Roboto', sans-serif;}
+	.procedures .post .btn{text-decoration:none;color :#fff;background:#470227;margin-bottom:18%;margin-top:9%;font-family: 'Baloo 2', cursive;width: 200px;height: 45px;border-radius: 30px;}
+    .procedures .post:hover .btn{background:#DE45A1}
+
+    .testimonial .owl-carousel div{display:block;}
+	.testimonial .owl-carousel {background:#DED1D8;margin-top:60px;}
+    .testimonial .owl-carousel .single-tst{text-align:center;margin-top:20px;}
+    
+	.testimonial .owl-carousel .item .client-info img{width:100px; border-radius:50px;margin-top:0px}
+	.testimonial .owl-carousel .item img{width:100px;margin:auto;}
+	.testimonial .owl-carousel .item{position:relative;top:34px;bottom:30px}
+	.testimonial .owl-carousel .item { text-align:center;}
+	
+	
+	.team{text-align:center;margin-top:4%;}
+	.team .sec-title{font-size:50px;font-weight:;color:#3D3B3D;margin-top:4%;}
+	.team  p{font-size:16px;font-weight: ; color:#5E585B; margin-top:4%;margin-bottom:10%;}
+	.team  .memb-details {position:relative;background:#FFFBFD;width:92%;left:%;top:-35px;}	
+	.team  .memb-details h6{font-size:24px;margin-bottom:10px;}	
+	.team  .memb-details .memb-social a{font-size:20px;color:#5E585B;display:none;}
+	.team  .single-memb:hover a{font-size:20px;color:#5E585B; margin:2%;background:none;display:inline;}
+	.team  .single-memb a i:hover{font-size:20px;color:#FF79DA;}
+	.team  .memb-details .memb-social{margin-top:12px;}
+	.team .single-memb:hover .memb-details{ margin-top: -70px;}
+	.team .single-memb{ height:480px;overflow:hidden}
+	.team .single-memb .memb-details {
+    background-color: #fff;
+    -webkit-box-shadow: 0 5px 20px #f0f0f0;
+    box-shadow: 0 5px 20px #f0f0f0;
+    max-width: calc( 100% - 60px);
+    margin: -50px auto 0;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    z-index: 1;box-sizing: border-box;
+}
+	
+	
+	.appointment {margin-top:7%;margin:auto;background:#F7F3F6}
+	.appointment .appointment-wrap img{width:100%;}
+	.appointment .appointment-wrap figure{float:left;}
+	
+	
+	.blog {text-align:center;}
+	.blog .sec-heading .sec-title{font-size:50px;font-family:;margin:30px;}
+	.blog .sec-heading p{font-size:;font-family:;margin-top:30px;}
+	.blog .post{border:1px solid #DDC2FF;margin:3px;}
+	.blog .post img{margin-top: 23px;width: 87%;}
+	.blog .post h4 {;margin-bottom:20px;margin-top:34px;}
+	.blog .post h4 a{text-decoration:none;color :#3E3647;}
+	.blog .post p{color :#3E3647;font-family: 'Roboto', sans-serif;}
+	.blog .post .btn{text-decoration:none;color :#fff;background:#470227;margin-bottom:18%;margin-top:9%;font-family: 'Baloo 2', cursive;width: 200px;height: 45px;border-radius: 30px;}
+    .blog .post:hover .btn{background:#DE45A1}
+	
+	

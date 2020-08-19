@@ -1,0 +1,51 @@
+<div class="contact">
+	   <div class="continer">
+	  	<form action="" name="form">
+		   <div class="contact_header">
+			    <h2>CONTACTS US</h2>
+			    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+			</div>
+		 <div class="my_form col-md-12">
+	  		
+	  			<ul>
+	  				<li>
+	  					<input type="text" name="name" placeholder="Name"/>
+	  				</li>
+					<li>
+					    <input type="text" name="category"placeholder="Category"/>
+					</li>
+	  			</tr>
+				
+	  		    <tr>
+	  				<td>
+	  					<input type="text" name="phon" placeholder="Phone"/>
+	  				</td>
+					<td>
+					   <select name="" id="">
+					     <option value="">City</option>
+					     <option value="">Dhaka</option>
+					     <option value="">Dilli</option>
+					     <option value="">snf</option>
+					     <option value=""> dvnm</option>
+					     <option value="">Cincfty</option>
+					     <option value="">ddity</option>
+					     <option value="">Cijfty</option>
+					     <option value="">City</option>
+					   
+					   </select>
+					</td>
+	  			</tr>
+				<tr>
+	  				<td>
+	  					<input type="text" name="email" placeholder="E-maile"/>
+	  				</td>
+				</tr>
+				<tr>
+					<td>
+					    <input type="tex" name="command"placeholder="Massage"/>
+					</td>
+	  			</tr>
+			</table>
+	  	</form>
+		</div>
+	  </div>

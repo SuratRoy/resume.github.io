@@ -1,0 +1,122 @@
+.appointment .v2 {
+  padding-bottom: 0;
+  border-bottom: 1px solid #fdd5d5;
+}
+
+.appointment .appointment-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.appointment .appointment-wrap figure {
+  -ms-flex-preferred-size: 40%;
+  flex-basis: 40%;
+}
+
+@media screen and (max-width: 1300px) {
+  .appointment .appointment-wrap figure {
+    display: none;
+  }
+}
+
+.appointment .appointment-wrap .appointment-form {
+  -ms-flex-preferred-size: 60%;
+  flex-basis: 60%;
+  padding-left: 100px;
+}
+
+@media screen and (max-width: 1300px) {
+  .appointment .appointment-wrap .appointment-form {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    padding: 30px 15px;
+  }
+}
+
+.appointment .appointment-wrap .appointment-form form {
+  max-width: 650px;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 1300px) {
+  .appointment .appointment-wrap .appointment-form form {
+    margin: 0 auto;
+  }
+}
+
+.appointment-form {
+  background-color: #fff9f8;
+}
+
+.appointment-form .form-field {
+  position: relative;
+  width: 100%;
+}
+
+.appointment-form .form-field input, .appointment-form .form-field textarea, .appointment-form .form-field select {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #d4d3d3;
+  color: #999;
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px 0;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.appointment-form .form-field input::-webkit-input-placeholder, .appointment-form .form-field textarea::-webkit-input-placeholder, .appointment-form .form-field select::-webkit-input-placeholder {
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.appointment-form .form-field input:-ms-input-placeholder, .appointment-form .form-field textarea:-ms-input-placeholder, .appointment-form .form-field select:-ms-input-placeholder {
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.appointment-form .form-field input::-ms-input-placeholder, .appointment-form .form-field textarea::-ms-input-placeholder, .appointment-form .form-field select::-ms-input-placeholder {
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.appointment-form .form-field input::placeholder, .appointment-form .form-field textarea::placeholder, .appointment-form .form-field select::placeholder {
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.appointment-form .form-field select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-transform: uppercase;
+}
+
+.appointment-form .form-field .select-field {
+  width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  .appointment-form .form-field.half-width {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .appointment-form .form-field.half-width input,
+  .appointment-form .form-field.half-width .select-field {
+    width: 49%;
+  }
+}
