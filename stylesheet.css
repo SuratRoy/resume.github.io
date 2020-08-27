@@ -1,0 +1,581 @@
+*{margin: 0;padding: 0;}
+
+a{
+	text-decoration: none;
+	color:#ffffff;
+}
+li{
+	list-style: none;
+	margin: 15px 0;
+}
+
+section{
+	background-image: url("2.jpg");
+	max-width: 1000px;
+	background: #31554f;
+	color:#ffffff;
+	font-family: arial;
+	letter-spacing: 1px;
+
+}
+#image, #name, .part, #about{
+	display: inline-block;
+}
+#image{
+	border: 4px solid;
+	border-color: red yellow green hsla(60, 90%, 50%, .8);
+	width: 150px;
+	height: 150px;
+	border-radius: 115px;
+	overflow: hidden;
+	margin: 55px 20px;
+	float: left;
+}
+#image img{
+	width: 100%;
+	height: 101%;
+	background: #fff;
+}
+#name{
+	width: 300px;
+	margin: 20px;
+}
+#name h2{
+	font-family: arial black;
+	text-transform: uppercase;
+	line-height: 34px;
+	letter-spacing: 1px;
+	font-size: 28px;
+}
+
+#name h2 span{
+	color: #fb768d;
+}
+#name ul li #grad {
+  background-image: linear-gradient(to right, #e24b98 , #70d2ef);
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+.part{
+	width: 3px;
+	height: 187px;
+	background: #fff;
+	margin-right: 9px;
+	position: absolute;
+	left: 521px;
+	top: 91px;
+}
+#about{
+	width: 394px;
+	margin: 20px;
+}
+#about h2{
+	font-family: arial black;
+	text-transform: uppercase;
+	line-height: 34px;
+	letter-spacing: 1px;
+	font-size: 28px;
+}
+#about p{
+    padding: 5px 0;
+    line-height: 25px;
+}
+#about ul li #grad {
+  background-image: linear-gradient(to right, #e24b98 , #70d2ef);
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.container h3{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+	line-height: 12px;
+	font-family: arial black;
+}
+.container h4{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+
+.top{
+
+width: 68px;
+
+position: absolute;
+
+height: 3px;
+
+background: orange;
+
+bottom: 0;
+}
+.bottom{
+	
+width: 68px;
+	
+position: absolute;
+	
+height: 3px;
+	
+background: orange;
+}
+
+
+#session{
+	background-image: linear-gradient(to right, #e24b98 , #70d2ef);
+	padding: 5px 10px;
+	border-radius: 20px;
+	width: 89px;
+	margin: 1px 0;
+}
+
+
+
+
+#certificet{
+	width: 98%;
+	margin: auto;
+	background-image: linear-gradient(to right, #f272b3 , #4f5fd5);
+	padding: 72px 0 20px;
+	display: flex;
+}
+
+.span{
+	font-weight: bold;
+	font-size: 18px;
+	padding: 3px 0;
+}
+
+#certificet .line2{
+	width: 4px;
+	height: 520px;
+	background: #fff;
+	margin-top: -45px;
+}
+#certificet .line1{
+	width: 4px;
+	height:520px;
+	background: #fff;
+	margin-top: -45px;
+}
+.expre{
+	transform: rotate(90deg);
+	margin-left: -42px;
+	margin-top: 90px;
+	text-transform: uppercase;
+	font-family: arial black;
+}
+.educa{
+	transform: rotate(-90deg);
+    margin-top: 350px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-family: arial black;
+}
+#certificet .line1 .topt{
+	position:absolute;
+	width: 80px;
+	height:4px;
+	background: #fff;
+	right: 22px;
+}
+#certificet .line1 .bottomb{
+	position:absolute;
+	bottom: 0;
+	width: 80px;
+	height:4px;
+	background: #fff;
+	right: 22px;
+}
+#certificet .line1 .bbTop{
+	width: 4px;
+	height: 30px;
+	background: #fff;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+#certificet .line1 .bbBottom{
+	width: 4px;
+	height: 30px;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#certificet .line1 .topRound{
+
+width: 10px;
+
+height: 10px;
+
+position: absolute;
+
+bottom: -8px;
+
+transform: translate(-71%, 2%);
+
+border-radius: 50%;
+
+border: 2px solid #fff;
+}
+#certificet .line1 .bRound{width: 10px;height: 10px;position: absolute;top: -8px;transform: translate(-68%, 2%);border-radius: 50%;border: 2px solid #fff;}
+#certificet .line2 .topt{
+	position:absolute;
+	width: 80px;
+	height:4px;
+	background: #FFF;
+}
+#certificet .line2 .bottomb{
+	position:absolute;
+	bottom: 0;
+	width: 80px;
+	height:4px;
+	background: #fff;
+}
+#certificet .line2 .bbTop{
+	width: 4px;
+	height: 30px;
+	background: #fff;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+#certificet .line2 .bbBottom{
+	width: 4px;
+	height: 30px;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+#certificet  .line2 .topRound{
+
+width: 10px;
+
+height: 10px;
+
+position: absolute;
+
+bottom: -8px;
+
+transform: translate(-31%, 2%);
+
+border-radius: 50%;
+
+border: 2px solid #fff;
+}
+#certificet .line2 .bRound{width: 10px;height: 10px;position: absolute;top: -8px;transform: translate(-31%, 2%);border-radius: 50%;border: 2px solid #fff;}
+
+
+#skill{
+	background-image: linear-gradient(to right, #f272b3 , #4f5fd5);
+	width:98%;
+	margin:20px auto 0;
+	padding-bottom:20px;
+}
+
+.skill_header{
+	text-align: center;
+	font-family: arial black;
+	font-size: 50px;
+	letter-spacing: 1px;
+	padding-top: 20px;
+}
+
+#skill .line2{
+	width: 4px;
+	height: 235px;
+	background: #fff;
+	margin-top: 20px;
+}
+#skill .line1{
+	width: 4px;
+	height: 235px;
+	background: #fff;
+	margin-top: 20px;
+}
+#skill .expre{
+	transform: rotate(90deg);
+	margin-left: -42px;
+	margin-top: 74px;
+	text-transform: uppercase;
+	font-family: arial black;
+}
+#skill .educa{
+	transform: rotate(-90deg);
+    margin-top: 350px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-family: arial black;
+}
+#skill .line1 .topt{
+	position:absolute;
+	width: 80px;
+	height:4px;
+	background: #fff;
+	right: 22px;
+}
+.line1 .bottomb{
+	position:absolute;
+	bottom: 0;
+	width: 80px;
+	height:4px;
+	background: #fff;
+	right: 22px;
+}
+#skill .line1 .bbTop{
+	width: 4px;
+	height:40px;
+	background: #fff;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+#skill .line1 .bbBottom{
+	width: 4px;
+	height:40px;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#skill .line1 .topRound{
+
+width: 40px;
+
+height: 4px;
+
+background: #fff;
+
+position: absolute;
+
+bottom: 0;
+
+right: 0;
+}
+#skill .line1 .topRound .aa{
+
+position: absolute;
+
+height: 10px;
+
+width: 10px;
+
+border: 2px solid #fff;
+
+border-radius: 50%;
+
+left: -8px;
+
+top: -3px;
+}
+#skill .line1 .bRound{width: 40px;height: 4px;background: #fff;position: absolute;top: 0;right: 0;}
+#skill .line1 .bRound .aa{
+
+position: absolute;
+
+height: 10px;
+
+width: 10px;
+
+border: 2px solid #fff;
+
+border-radius: 50%;
+
+left: -8px;
+
+top: -3px;
+}
+#skill .line2 .topt{
+	position:absolute;
+	width: 80px;
+	height:4px;
+	background: #fff;
+}
+#skill .line2 .bottomb{
+	position:absolute;
+	bottom: 0;
+	width: 80px;
+	height:4px;
+	background: #fff;
+}
+#skill .line2 .bbTop{
+	width: 4px;
+	height:40px;
+	background: #fff;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+#skill .line2 .bbBottom{
+	width: 4px;
+	height:40px;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#skill .line2 .topRound{
+
+width: 40px;
+
+height: 4px;
+
+background: #fff;
+
+position: absolute;
+
+bottom: 0;
+
+left: 0;
+}
+#skill .line2 .topRound .aa{
+
+position: absolute;
+
+height: 10px;
+
+width: 10px;
+
+border: 2px solid #fff;
+
+border-radius: 50%;
+
+right: -8px;
+
+top: -3px;
+}
+#skill .line2 .bRound{width: 40px;height: 4px;background: #fff;position: absolute;top: 0;}
+#skill .line2 .bRound .aa{
+
+position: absolute;
+
+height: 10px;
+
+width: 10px;
+
+border: 2px solid #fff;
+
+border-radius: 50%;
+
+right: -8px;
+
+top: -3px;
+}
+
+
+.photoshop{
+	margin: 73px 0 4px;
+}
+.professon{text-align: right;margin: 73px 0 1px;}
+
+
+
+
+
+
+
+.con{
+	width: 114px;
+	background: orange;
+	float: right;
+	border-radius: 20px;
+	padding: 2px;
+}
+.p_bar, .con{
+	display: inline-block;
+}
+.progress{
+	margin: 25px 0;
+	height: 10px;
+}
+.mmmm{
+	margin-top: 79px;
+}
+.mmmm h3{
+	font-weight: 700;
+	margin: 23px -13px;
+	text-align: center;
+}
+.nnnn .progress{
+	transform: rotate(180deg);
+}
+
+#skill .pro{
+
+text-transform: uppercase;
+
+transform: rotate(90deg);
+
+margin: 36px 0 0 -54px;
+}
+#skill .par{
+
+text-transform: uppercase;
+
+transform: rotate(-90deg);
+
+margin: 210px 0 0 27px;
+}
+
+
+
+.hobby_lang{
+	text-align: center;
+	width: 98%;
+	margin: 20px auto 0;
+	padding-bottom: 20px;
+}
+.hobbies{
+	background-image: linear-gradient(to right, #f272b3 , #4f5fd5);
+}
+.hobbies .span{
+	background-image: linear-gradient(to right, #f83a9a , #263399);
+	font-size: 36px;
+	width: 55px;
+	height: 55px;
+	margin: auto;
+	border-radius: 43px;
+}
+.hobby_lang h2{
+	font-family: arial black;
+	font-size: 40px;
+	text-transform: uppercase;
+	padding: 15px;
+}
+.hobbies h3{
+	font-size: 25px;
+	padding: 8px 8px 9px;
+}
+.lang{
+	background-image: linear-gradient(to right, #f272b3 , #4f5fd5);
+}
+
+.pppp{
+	margin: -20px 20px 0 -10px;
+}
+
+
+.lang h5{
+
+font-weight: bold;
+}
+
+
+
+
+
